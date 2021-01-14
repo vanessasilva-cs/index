@@ -660,7 +660,7 @@ input[type="button"] {
 	line-height: 5.4rem;
 	padding: 0 3rem;
 	margin: 0 .3rem 1.2rem 0;
-	background: #d8d8d8;
+	background: #d8d8d8; 
 	color: #313131;
 	text-decoration: none;
 	cursor: pointer;
@@ -684,7 +684,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-	background: #bebebe;
+	background: #bebebe; 
 	color: #000000;
 	outline: 0;
 }
@@ -1389,7 +1389,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #009600;
 }
 .intro-content .button::after {
 	display: inline-block;
