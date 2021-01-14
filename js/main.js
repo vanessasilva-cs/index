@@ -12,19 +12,6 @@
 	/*---------------------------------------------------- */
 	/* Preloader
 	------------------------------------------------------ */ 
-
-// Initialize AOS
-  AOS.init({
-    offset: 200,
-    duration: 600,
-    easing: 'ease-in-sine',
-    delay: 100,
-    once: true
-  });
-
-  randomizeOrder();
-});
-
 setTimeout(function() {
   fadeOutPreloader(document.getElementById('preloader'), 69);
 }, 1500);
