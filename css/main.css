@@ -970,6 +970,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .progress span {
 	position: absolute;
 	right: 0;
+	bottom: -3.6;
 	display: block;
 	font-family: "poppins-regular", sans-serif;
 	color: white;
