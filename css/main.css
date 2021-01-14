@@ -1087,7 +1087,13 @@ header {
 	position: fixed;
 	width: 100%;
 	min-height: 66px;
-	z-index: 600;
+	top: 0;
+  	right: 0;
+  	left: 0;
+  	border-bottom: 1px solid #2b2d2f;
+  	background: #2b2d2f;
+  	z-index: 2;
+}
 }
 header .row {
 	position: relative;
