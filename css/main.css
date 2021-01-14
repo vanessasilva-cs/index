@@ -1104,7 +1104,7 @@ header .top-bar {
 	background: #0E0E0E;
 	min-width: 220px;
 	min-height: 66px;
-	position: relative;
+	position: absolute;
 	left: 90px;
 	top: 0;
 }
@@ -1228,9 +1228,9 @@ header .logo a {
 	width: 100%;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 1.5rem;
-	position: absolute;
+	position: relative;
 	top: 100%;
-	left: 0;
+	float: left;
 }
 
 /* dropdown nav */
