@@ -1402,6 +1402,129 @@ header .logo a {
 	left: 1.2rem;
 }
 
+
+.landing-icons{
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-pack:center;
+	justify-content:center
+}
+
+.landing-icons .social-link{
+	color:#fff;
+	position:relative;
+	height:3rem;
+	line-height:3rem;
+	margin:.25rem;
+	width:3rem
+}
+
+.landing-icons .social-link .circle{
+	animation:c 1s ease-in-out forwards;
+	fill:none;
+	stroke-dasharray:40;
+	transition:all .2s ease-in-out
+}
+
+.landing-icons .social-link .social{
+	font-size:1.5rem;
+	position:absolute;
+	top:0;
+	transition:all .5s ease-in-out;
+	width:100%
+}
+
+.landing-icons .social-link .social-svg{
+	fill:#fff
+}
+
+.landing-icons .social-link .label{
+	display:none
+}
+
+.landing-icons .social-link:hover{
+	cursor:pointer
+}
+
+.landing-icons .social-link:hover .circle{
+	animation:b 1s ease-in-out forwards,d 1s linear forwards;
+	fill:#fff;
+	fill-opacity:1
+}
+
+.landing-icons .social-link:hover .social-svg{
+	fill:#000
+}
+
+.landing-icons .social-link:hover .label{
+	display:unset!important;
+	position:relative;
+	top:-2rem
+}
+
+.landing-icons .email:hover .circle{
+	animation:b 1s ease-in-out forwards,e 1s linear forwards
+}
+
+.landing-icons .email:hover .social-svg{
+	fill:#d44638
+}
+
+.landing-icons .linkedin:hover .circle{
+	animation:b 1s ease-in-out forwards,f 1s linear forwards
+}
+
+.landing-icons .linkedin:hover .social-svg{
+	fill:#007bb6
+}
+
+.landing-icons .twitter:hover .circle{
+	animation:b 1s ease-in-out forwards,g 1s linear forwards
+}
+
+.landing-icons .twitter:hover .social-svg{
+	fill:#1da1f2
+}
+
+@keyframes b{
+	to{
+		stroke-dasharray:510;
+		stroke-width:.5rem}
+}
+
+@keyframes c{
+	0%{
+		stroke:#fff;
+		stroke-dasharray:510;
+		stroke-width:.5rem
+	}
+	to{
+		stroke:#fff;
+		stroke-dasharray:83;
+		stroke-width:.5rem}
+}
+
+@keyframes d{
+	to{
+		stroke:#000}
+}
+
+@keyframes e{
+	to{
+		stroke:#b23121}
+}
+
+@keyframes f{
+	to{
+		stroke:#007bb6}
+}
+
+@keyframes g{
+	to{
+		stroke:#1da1f2}
+}
+
+
 .intro-social {
 	display: block;
 	position: absolute;
