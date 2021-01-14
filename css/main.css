@@ -1515,8 +1515,8 @@ header .logo a {
 	margin: .9rem 0 0 0;
 	float: left;
 }
-.intro-info {
-	text-align: left;
+.intro-info .lead {
+	text-align: justify;
 	padding-left: 13rem;
 }
 
