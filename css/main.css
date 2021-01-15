@@ -2613,7 +2613,8 @@ footer a:hover, footer a:focus {
 	color: #3fa65c;
 }
 footer .row {
-	max-width: 900px;
+	max-width: 1000px;
+	text-align: center;
 }
 footer .social {
 	text-align: right;
