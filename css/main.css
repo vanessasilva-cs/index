@@ -967,7 +967,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 	height: 100%;
 }
-/*.skill-bars li .progress span {
+.skill-bars li .progress span {
 	position: absolute;
 	right: 0;
 	bottom: 3.6;
@@ -988,7 +988,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	border-right: 5px solid transparent;
 	border-left: 5px solid transparent;
 	border-bottom: 5px solid #313131;
-	content: "";*/
+	content: "";
 }
 
 .skill-bars li .percent5   { width: 5%; }
