@@ -2333,7 +2333,7 @@ footer .row {
 	text-align: center;
 }
 footer .social {
-	text-align: right;
+	text-align: center;
 }
 footer .footer-social {
 	display: inline-block;
@@ -2342,6 +2342,7 @@ footer .footer-social {
 	padding: 0;
 	position: relative;
 	top: -.3rem;
+	z-index: 2;
 }
 footer .footer-social li {
 	display: inline-block;
