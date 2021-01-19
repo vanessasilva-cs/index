@@ -615,7 +615,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 
-
 /** 
  * Stats Tab
  * ---------
@@ -707,16 +706,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: .6rem .6rem;
 	border-radius: 3px;
 }
-/*.skill-bars li .progress span::after {
-	position: absolute;
-	left: 50%;
-	bottom: 5px;
-	margin-left: -5px;
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;
-	border-bottom: 5px solid #313131;
-	content: "";
-}*/
 
 .skill-bars li .percent5   { width: 5%; }
 .skill-bars li .percent10  { width: 10%; }
