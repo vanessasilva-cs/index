@@ -506,7 +506,7 @@ img.pull-left {
  * 05. forms - (_forms.scss)
  *
  * ------------------------------------------------------------------- 
- */
+ 
 fieldset {
 	border: none;
 }
@@ -577,6 +577,7 @@ select {
 	pointer-events: none;
 	color: #252525;
 }
+*/
 
 /* IE9 and below */
 .oldie .ss-custom-select::after {
